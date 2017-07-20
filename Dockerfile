@@ -65,4 +65,6 @@ RUN git clone https://github.com/camilb/VeryNginx.git \
 
 WORKDIR $NGINX_PREFIX/
 
+EXPOSE 80 443
+
 CMD ["/opt/verynginx/openresty/nginx/sbin/nginx", "-g", "daemon off; error_log /dev/stderr info;"]
