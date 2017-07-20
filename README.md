@@ -1,3 +1,4 @@
+base Dockerfile from https://github.com/camilb/docker-verynginx.git
 # buid image
 ```docker build -t blackstorm/verynginx .```
 # run 
