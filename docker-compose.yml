@@ -5,3 +5,4 @@ verynginx:
     - ./nginx.conf:/opt/verynginx/openresty/nginx/conf/nginx.conf
   ports:
     - 80:80
+    - 443:443
