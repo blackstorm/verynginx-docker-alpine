@@ -1,0 +1,7 @@
+verynginx:
+  image: blackstorm/verynginx
+  restart: always
+  volumes:
+    - ./nginx.conf:/opt/verynginx/openresty/nginx/conf/nginx.conf
+  ports:
+    - 80:80
